@@ -12,6 +12,11 @@ $MenuOpen.click(function(event){
 });
 ```
 
-// Close
+```javascript
+// Click close
+$MenuClose.click(function(event){
+    alert('Click close');
+});
+```
 
 // Functions
