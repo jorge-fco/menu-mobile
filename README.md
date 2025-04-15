@@ -1,10 +1,16 @@
 # Menu Mobile
-- Open
-- Close
-- ESC Key
-- Not scroll
+- Open Menu
+- Close Menu
+- ESC Key close
+- Not scroll (body and html)
 
-// Open
+
+```javascript
+// Click Open
+$MenuOpen.click(function(event){
+    alert('Click Open');
+});
+```
 
 // Close
 
