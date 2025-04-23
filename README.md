@@ -1,22 +1,39 @@
 # Menu Mobile
-- Open Menu
-- Close Menu
-- ESC Key close
-- Not scroll (body and html)
 
+## Observations
+- Open Menu function
+- Close Menu function
+- ESC Key close function
+- Not scroll (_body and html_)
 
+## Structure
 ```javascript
-// Click Open
+// VARS
+var $MenuOpen = $('.js-menu-open');
+var $MenuClose = $('.js-menu-close');
+
+// Click Open [ + ]
 $MenuOpen.click(function(event){
     alert('Click Open');
 });
-```
 
-```javascript
-// Click close
+// Click Close [ X ]
 $MenuClose.click(function(event){
     alert('Click close');
 });
 ```
 
-// Functions
+## Functions
+```javascript
+function Open(){
+    //
+}
+
+function Close(){
+    //
+}
+```
+
+## Requirements
+- https://gsap.com/docs/v3/
+- https://releases.jquery.com/
